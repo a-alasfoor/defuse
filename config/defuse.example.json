@@ -1,0 +1,35 @@
+{
+  "projectName": "Defuse",
+  "labAcknowledgement": false,
+  "caseId": "CASE-CHANGE-ME",
+  "analyst": "CHANGE-ME",
+  "allowNonVirtualMachine": false,
+  "remediationAcknowledgement": false,
+  "evidenceDirectory": "..\\evidence",
+  "indicators": {
+    "_instructions": "Use exact, evidence-backed values only. See docs/DETECTION.md.",
+    "processNames": [],
+    "filePaths": [],
+    "registryPaths": [],
+    "scheduledTaskNames": [],
+    "serviceNames": [],
+    "remoteIpAddresses": []
+  },
+  "remediation": {
+    "_instructions": "Populate only from reviewed evidence. Run Remediate without -Apply to preview first.",
+    "processArtifacts": [],
+    "registryValues": [],
+    "scheduledTasks": [],
+    "services": [],
+    "files": []
+  },
+  "verification": {
+    "requireRebootAfterRemediation": true
+  },
+  "reporting": {
+    "malwareName": "CHANGE-ME",
+    "organization": "CHANGE-ME",
+    "securityEmail": "security@example.invalid",
+    "analystContact": "CHANGE-ME"
+  }
+}

@@ -1,0 +1,11 @@
+# Runtime evidence can contain host-specific or sensitive information.
+evidence/*
+!evidence/.gitkeep
+
+# Local analyst configuration is not committed.
+config/defuse.local.json
+
+# Common editor and operating-system files.
+.DS_Store
+*.swp
+
